@@ -11,7 +11,7 @@ script:
   - docker build -t docker-ansible .
 
   # Test running the docker container
-  - docker run --name test-container -d --privileged docker-ansible
+  - docker run --name test-container -d --privileged -v /sys/fs/cgroup:/sys/fs/cgroup:ro docker-ansible
 
   # Verifying the ansible installation
   - docker exec --tty test-container env TERM=xterm ansible --version
