@@ -1,5 +1,5 @@
 # CentOS 7 Ansible Docker Image
-[![Build Status](https://travis-ci.com/shubhamv1436/docker-centos7-ansible.svg?branch=master)](https://travis-ci.com/shubhamv1436/docker-centos7-ansible)  [![Docker Automated build](https://img.shields.io/docker/automated/shubhamv1436/docker-centos7-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/shubhamv1436/docker-centos7-ansible)
+[![Build Status](https://travis-ci.com/shubhamv1436/docker-centos7-ansible.svg?branch=master)](https://travis-ci.com/shubhamv1436/docker-centos7-ansible)  [![Docker Automated build](https://img.shields.io/docker/cloud/automated/shubhamv1436/docker-centos7-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/shubhamv1436/docker-centos7-ansible) [![Docker Build Status](https://img.shields.io/docker/cloud/build/shubhamv1436/docker-centos7-ansible)](https://hub.docker.com/r/shubhamv1436/docker-centos7-ansible/builds)
 
 CentOS 7 Docker container for Ansible testing.
 
